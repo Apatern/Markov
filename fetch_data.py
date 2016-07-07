@@ -1,6 +1,7 @@
 import sys
 import csv
 import scrapy
+from markov_python.cc_markov import MarkovChain
 from scrapy.http import FormRequest
 from scrapy.crawler import CrawlerProcess
 
